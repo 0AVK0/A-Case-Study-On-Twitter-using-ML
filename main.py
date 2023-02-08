@@ -18,10 +18,10 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from sklearn.feature_extraction.text import CountVectorizer
  
 # API keys
-api_key = "judnKGwmiytqI0EIzQqKfcV0l"
-api_secrets = "lG7F4pzszF58KVgBpzlPZODKob5FdI6veHtYTdvi8Zryfwqx19"
-access_token = "803278334813765632-d5zNtPGjbMxFEJakErrL9x1sB2kRNIP"
-access_secret = "o5L3RYdNHU770GRXyF2o5K9fA5qmnewXwMz30Ybz5YEmr"
+api_key = ""
+api_secrets = ""
+access_token = ""
+access_secret = ""
  
 # Authenticate to Twitter
 auth = tweepy.OAuthHandler(api_key,api_secrets)
